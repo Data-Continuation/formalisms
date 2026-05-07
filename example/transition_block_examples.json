@@ -1,0 +1,30 @@
+[
+  {
+    "id": "authority_current",
+    "name": "Authority Current",
+    "family": "authority",
+    "description": "Authority must exist, match scope, and remain unrevoked at commit.",
+    "fail_closed_condition": "missing, stale, out-of-scope, or revoked authority"
+  },
+  {
+    "id": "evidence_fresh",
+    "name": "Evidence Fresh",
+    "family": "evidence",
+    "description": "Evidence basis must remain fresh inside the inference window.",
+    "fail_closed_condition": "missing or stale evidence"
+  },
+  {
+    "id": "receipt_required",
+    "name": "Receipt Required",
+    "family": "receipt",
+    "description": "A reconstructable receipt must be available before continuation.",
+    "fail_closed_condition": "missing receipt basis"
+  },
+  {
+    "id": "reversibility_checked",
+    "name": "Reversibility Checked",
+    "family": "reversibility",
+    "description": "The projected post-transition state must satisfy minimum recoverability.",
+    "fail_closed_condition": "unknown or insufficient reversibility"
+  }
+]
