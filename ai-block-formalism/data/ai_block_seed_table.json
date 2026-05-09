@@ -1,0 +1,122 @@
+[
+  {
+    "code": "AI-INF-P2-I",
+    "name": "AI Inference Transition",
+    "sub_block": "AI_inf",
+    "phase": 2,
+    "burden": 0.2,
+    "required_burden": "claim-reality alignment"
+  },
+  {
+    "code": "AI-GEN-P3-R",
+    "name": "AI Artifact Generation",
+    "sub_block": "AI_gen",
+    "phase": 3,
+    "burden": 0.32,
+    "required_burden": "reconstruction and format sufficiency"
+  },
+  {
+    "code": "AI-GEN:CFG-P5-G/R",
+    "name": "AI Configuration Generation",
+    "sub_block": "AI_gen",
+    "phase": 5,
+    "burden": 0.58,
+    "required_burden": "governance and receipt sufficiency"
+  },
+  {
+    "code": "AI-GEN:WORKFLOW-P5-G/R",
+    "name": "AI Workflow Generation",
+    "sub_block": "AI_gen",
+    "phase": 5,
+    "burden": 0.66,
+    "required_burden": "executable configuration burden"
+  },
+  {
+    "code": "AI-RANK:PERS-P7-Q",
+    "name": "AI Person Ranking",
+    "sub_block": "AI_rank",
+    "phase": 7,
+    "burden": 0.86,
+    "required_burden": "standing and consequence burden"
+  },
+  {
+    "code": "AI-DEC-P4-G",
+    "name": "AI Decision Selection",
+    "sub_block": "AI_dec",
+    "phase": 4,
+    "burden": 0.46,
+    "required_burden": "authority/admissibility burden"
+  },
+  {
+    "code": "AI-TOOL:EMAIL-P6-Q",
+    "name": "AI Email Sending",
+    "sub_block": "AI_tool",
+    "phase": 6,
+    "burden": 0.72,
+    "required_burden": "external communication consequence"
+  },
+  {
+    "code": "AI-TOOL:GITHUB-P5-R",
+    "name": "AI GitHub Mutation",
+    "sub_block": "AI_tool",
+    "phase": 5,
+    "burden": 0.7,
+    "required_burden": "target and reconstruction burden"
+  },
+  {
+    "code": "AI-AGENT:DEP-P6-V/H",
+    "name": "AI Agent Deployment",
+    "sub_block": "AI_agent",
+    "phase": 6,
+    "burden": 0.84,
+    "required_burden": "viability and entropy burden"
+  },
+  {
+    "code": "AI-REC:POLICY-P5-G",
+    "name": "AI Policy Mutation",
+    "sub_block": "AI_rec",
+    "phase": 5,
+    "burden": 0.92,
+    "required_burden": "recursive governance burden"
+  },
+  {
+    "code": "AI-CRED-P5-G/H",
+    "name": "AI Credential Transition",
+    "sub_block": "AI_tool",
+    "phase": 5,
+    "burden": 0.88,
+    "required_burden": "authority and irreversibility"
+  },
+  {
+    "code": "AI-FIN-P7-Q/H",
+    "name": "AI Financial Transition",
+    "sub_block": "AI_tool",
+    "phase": 7,
+    "burden": 0.9,
+    "required_burden": "settlement and consequence"
+  },
+  {
+    "code": "AI-LIFE-P7-L/H",
+    "name": "AI Life-Affecting Transition",
+    "sub_block": "AI_dec",
+    "phase": 7,
+    "burden": 0.96,
+    "required_burden": "viability, welfare, irreversibility"
+  },
+  {
+    "code": "AI-PERS-P7-Q/R",
+    "name": "AI Person-Affecting Transition",
+    "sub_block": "AI_dec",
+    "phase": 7,
+    "burden": 0.94,
+    "required_burden": "standing, appeal, reconstruction"
+  },
+  {
+    "code": "AI-MEM-P8-G/R",
+    "name": "AI Memory Mutation",
+    "sub_block": "AI_rec",
+    "phase": 8,
+    "burden": 0.94,
+    "required_burden": "future behavior and reconstruction"
+  }
+]
