@@ -2,26 +2,42 @@
 
 Canonical StegVerse formalism module for the AI Block of the Transition Periodic Table.
 
-## Placement
-
-This repository belongs under the `formalisms` organization.
-
-## Canonical document
-
-- `AI-BLOCK-FORMALISM.md`
-
-## Companion tests
-
-The executable tests belong in the companion repository:
+## Target
 
 ```text
-formalism-tests/ai-block-formalism-tests
+Org: Data-Continuation
+Repo: formalisms
+Path: ai-block-formalism/
 ```
 
-## Done criteria
+## Files
 
-This formalism is ready for first-pass integration when the companion tests prove:
+```text
+README.md
+AI-BLOCK-FORMALISM.md
+data/ai_block_seed_table.json
+AI_BLOCK_MIRROR_HANDOFF.md
+```
 
-1. AI-mediated transitions classify into the expected seed transition elements.
-2. Burden rises monotonically from inference to generation to decision to tool use to agentic execution to recursion.
-3. Hard gates fail closed for target mismatch, missing context, authority overflow, and insufficient receipt evidence.
+## Purpose
+
+This module defines the canonical AI Block formalism, including:
+
+1. Inference-Consequence Coupling.
+2. Artificial Consequence Determinacy.
+3. AI sub-block taxonomy.
+4. AI phase ladder.
+5. AI-refined GCAT admissibility.
+6. Hard gates.
+7. Receipt schema.
+8. Seed transition elements.
+
+## Companion Tests
+
+Executable tests belong in:
+
+```text
+Org: Data-Continuation
+Repo: formalism-tests
+Path: ai-block-formalism-tests/
+```
